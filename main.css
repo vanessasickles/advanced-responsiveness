@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(230, 230, 230);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+}
+
+header {
+    background-color: white;
+    padding: 0.25rem 0;
+    margin-bottom: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    min-height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+a {
+    color: #909000
+}
+
+/* 
+* ========== BOXES ============
+*/
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 2rem;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+
+.small {
+    background-color: orange;
+}
+
+.medium {
+    background-color: red;
+}
+
+.large {
+    background-color: green;
+}
+
+/* 
+* ========== FOOTER ============
+*/
+footer {
+    padding: 3rem 0rem;
+    background-color: white;
+    margin-top: 3rem;
+}
+
+.socials {
+
+}
+
+.icons {
+
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.credits {
+    width: 100%;
+}
+
+.credits ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 0.5rem 1rem;
+}
+
+/* 
+* ========== MEDIUM ============
+*/
+
+@media screen and (min-width: 525px) {
+    .container {
+        max-width: 850px;
+    }
+
+    /* 
+    * ========== BOXES ============
+    */
+
+    .small {
+
+    }
+
+    .medium {
+
+    }
+
+    .large {
+
+    }
+
+    /* 
+    * ========== NAV ============
+    */
+
+    .menu {
+
+    }
+
+    .nav-links {
+
+    }
+
+    /* 
+    * ========== FOOTER ============
+    */
+
+    .icons {
+
+    }
+}
+
+
+/* 
+* ========== LARGE ============
+*/
+
+@media screen and (min-width: 900px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    /* 
+    * ========== BOXES ============
+    */
+
+    .small {
+
+    }
+
+    .medium {
+
+    }
+
+    .large {
+
+    }
+
+    /* 
+    * ========== NAV ============
+    */
+
+    .menu {
+
+    }
+}
